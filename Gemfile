@@ -4,17 +4,17 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "rails", "~> 7.0.0"
-gem "omniauth"
+gem "rails", "~> 7.0.4", ">= 7.0.4.3"
+gem "omniauth", ">= 2.1.0"
 gem "omniauth-oauth2"
 gem "rdoc"
 
 gem "rails-controller-testing", github: "rails/rails-controller-testing"
 
-gem "responders", "~> 3.0"
+gem "responders", "~> 3.0", ">= 3.0.1"
 
 group :test do
-  gem "nokogiri", "< 1.13"
+  gem "nokogiri", "~> 1.13", ">= 1.13.9"
   gem "omniauth-facebook"
   gem "omniauth-openid"
   gem "rexml"
