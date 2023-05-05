@@ -14,7 +14,7 @@ gem "rails-controller-testing", github: "rails/rails-controller-testing"
 gem "responders", "~> 3.0"
 
 group :test do
-  gem "nokogiri", "< 1.13"
+  gem "nokogiri", "~> 1.13.9"
   gem "omniauth-facebook"
   gem "omniauth-openid"
   gem "rexml"
