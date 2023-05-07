@@ -142,9 +142,9 @@ GEM
       rack-protection
     omniauth-facebook (9.0.0)
       omniauth-oauth2 (~> 1.2)
-    omniauth-oauth2 (1.8.0)
+    omniauth-oauth2 (1.7.3)
       oauth2 (>= 1.4, < 3)
-      omniauth (~> 2.0)
+      omniauth (>= 1.9, < 3)
     omniauth-openid (2.0.1)
       omniauth (>= 1.0, < 3.0)
       rack-openid (~> 1.4.0)
@@ -224,7 +224,7 @@ PLATFORMS
 DEPENDENCIES
   devise!
   mocha (~> 1.1)
-  omniauth (>= 2.1.1)
+  omniauth (>= 2.0.0)
   omniauth-facebook
   omniauth-oauth2
   omniauth-openid
