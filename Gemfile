@@ -5,13 +5,13 @@ source "https://rubygems.org"
 gemspec
 
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
-gem "omniauth", ">= 2.1.0"
+gem "omniauth", ">= 2.1.1"
 gem "omniauth-oauth2"
 gem "rdoc"
 
 gem "rails-controller-testing", github: "rails/rails-controller-testing"
 
-gem "responders", "~> 3.0", ">= 3.0.1"
+gem "responders", "~> 3.1", ">= 3.1.0"
 
 group :test do
   gem "omniauth-facebook"
