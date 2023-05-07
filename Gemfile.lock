@@ -224,7 +224,6 @@ PLATFORMS
 DEPENDENCIES
   devise!
   mocha (~> 1.1)
-  nokogiri (~> 1.13, >= 1.13.9)
   omniauth (>= 2.1.0)
   omniauth-facebook
   omniauth-oauth2
