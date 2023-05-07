@@ -145,17 +145,11 @@ GEM
     omniauth-oauth2 (1.7.3)
       oauth2 (>= 1.4, < 3)
       omniauth (>= 1.9, < 3)
-    omniauth-openid (2.0.1)
-      omniauth (>= 1.0, < 3.0)
-      rack-openid (~> 1.4.0)
     orm_adapter (0.5.0)
     psych (5.1.0)
       stringio
     racc (1.6.2)
     rack (2.2.7)
-    rack-openid (1.4.2)
-      rack (>= 1.1.0)
-      ruby-openid (>= 2.1.8)
     rack-protection (3.0.6)
       rack
     rack-test (2.1.0)
@@ -193,7 +187,6 @@ GEM
       actionpack (>= 5.2)
       railties (>= 5.2)
     rexml (3.2.5)
-    ruby-openid (2.9.2)
     ruby2_keywords (0.0.5)
     snaky_hash (2.0.1)
       hashie
@@ -227,7 +220,6 @@ DEPENDENCIES
   omniauth (>= 2.0.0)
   omniauth-facebook
   omniauth-oauth2
-  omniauth-openid
   rails (~> 7.0.4, >= 7.0.4.3)
   rails-controller-testing!
   rdoc
