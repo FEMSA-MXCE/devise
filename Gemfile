@@ -5,7 +5,7 @@ source "https://rubygems.org"
 gemspec
 
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
-gem "omniauth", ">= 2.1.1"
+gem "omniauth", ">= 2.0.0"
 gem "omniauth-oauth2"
 gem "rdoc"
 
@@ -15,7 +15,6 @@ gem "responders", "~> 3.1", ">= 3.1.0"
 
 group :test do
   gem "omniauth-facebook"
-  gem "omniauth-openid"
   gem "rexml"
   gem "timecop"
   gem "webrat", "0.7.3", require: false

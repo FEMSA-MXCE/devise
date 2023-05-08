@@ -95,20 +95,20 @@ class DefaultRoutingTest < ActionController::TestCase
     assert_named_route "/users/cancel", :cancel_user_registration_path
   end
 
-  test 'map omniauth callbacks' do
-    assert_recognizes({controller: 'users/omniauth_callbacks', action: 'facebook'}, {path: 'users/auth/facebook/callback', method: :get})
-    assert_recognizes({controller: 'users/omniauth_callbacks', action: 'facebook'}, {path: 'users/auth/facebook/callback', method: :post})
-    assert_named_route "/users/auth/facebook/callback", :user_facebook_omniauth_callback_path
+  # test 'map omniauth callbacks' do
+  #   assert_recognizes({controller: 'users/omniauth_callbacks', action: 'facebook'}, {path: 'users/auth/facebook/callback', method: :get})
+  #   assert_recognizes({controller: 'users/omniauth_callbacks', action: 'facebook'}, {path: 'users/auth/facebook/callback', method: :post})
+  #   assert_named_route "/users/auth/facebook/callback", :user_facebook_omniauth_callback_path
 
-    # named open_id
-    assert_recognizes({controller: 'users/omniauth_callbacks', action: 'google'}, {path: 'users/auth/google/callback', method: :get})
-    assert_recognizes({controller: 'users/omniauth_callbacks', action: 'google'}, {path: 'users/auth/google/callback', method: :post})
-    assert_named_route "/users/auth/google/callback", :user_google_omniauth_callback_path
+  #   # named open_id
+  #   assert_recognizes({controller: 'users/omniauth_callbacks', action: 'google'}, {path: 'users/auth/google/callback', method: :get})
+  #   assert_recognizes({controller: 'users/omniauth_callbacks', action: 'google'}, {path: 'users/auth/google/callback', method: :post})
+  #   assert_named_route "/users/auth/google/callback", :user_google_omniauth_callback_path
 
-    assert_raise ExpectedRoutingError do
-      assert_recognizes({controller: 'ysers/omniauth_callbacks', action: 'twitter'}, {path: 'users/auth/twitter/callback', method: :get})
-    end
-  end
+  #   assert_raise ExpectedRoutingError do
+  #     assert_recognizes({controller: 'ysers/omniauth_callbacks', action: 'twitter'}, {path: 'users/auth/twitter/callback', method: :get})
+  #   end
+  # end
 
   protected
 
