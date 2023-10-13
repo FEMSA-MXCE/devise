@@ -11,7 +11,7 @@ gem "rdoc"
 
 gem "rails-controller-testing", github: "rails/rails-controller-testing"
 
-gem "responders", "~> 3.1", ">= 3.1.0"
+gem "responders", "~> 3.1", ">= 3.1.1"
 
 group :test do
   gem "omniauth-facebook"
