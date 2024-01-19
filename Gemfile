@@ -5,8 +5,8 @@ source "https://rubygems.org"
 gemspec
 
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
-gem "omniauth", ">= 2.0.0"
-gem "omniauth-oauth2"
+gem "omniauth", ">= 2.1.2"
+gem "omniauth-oauth2", ">= 1.8.0"
 gem "rdoc"
 
 gem "rails-controller-testing", github: "rails/rails-controller-testing"
